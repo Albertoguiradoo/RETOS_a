@@ -12,7 +12,6 @@ Ejemplo[Juan - Teléfono, Pepe - Teléfono]
 '''
 
 #Opción 1:
-from curses.ascii import VT
 
 
 vNombres = []
@@ -21,8 +20,8 @@ vTelefonos = []
 Nombre=(input("Dime un nombre:\n"))
 Tele=(input("Dime su teléfono:\n"))
 
-vNombres.append(Nombre)
-vTelefonos.append(Tele)
+vNombres.append(input("dime tu nombre:\n"))
+vTelefonos.append(input("dime tu teléfono:\n"))
 
-print(vNombres)
-print(vTelefonos)
+print("número de telefono de ", Nombre, "es", Tele)
+print("número de telefono de ", vNombres, "es", vTelefonos)
