@@ -24,4 +24,4 @@ vNombres.append(input("dime tu nombre:\n"))
 vTelefonos.append(input("dime tu teléfono:\n"))
 
 print("número de telefono de ", Nombre, "es", Tele)
-print("número de telefono de ", vNombres, "es", vTelefonos)
+print("número de telefono de ", vNombres.pop(), "es", vTelefonos.pop())
