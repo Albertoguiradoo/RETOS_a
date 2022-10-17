@@ -14,6 +14,7 @@ Ejemplo[Juan - Teléfono, Pepe - Teléfono]
 #Opción 1:
 
 
+
 vNombres = []
 vTelefonos = []
 
@@ -25,3 +26,4 @@ vTelefonos.append(input("dime tu teléfono:\n"))
 
 print("número de telefono de ", Nombre, "es", Tele)
 print("número de telefono de ", vNombres.pop(), "es", vTelefonos.pop())
+
